@@ -57,6 +57,7 @@ namespace TestApp.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+            ViewBag.Test1 = "23123";
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
