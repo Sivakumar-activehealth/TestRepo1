@@ -15,6 +15,8 @@ namespace TestApp.Controllers
 
         public ActionResult About()
         {
+            ViewBag.Test1 = "5555";
+            ViewBag.Name = "Siva";
             ViewBag.Message = "Your application description page.";
 
             return View();

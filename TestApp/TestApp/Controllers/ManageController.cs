@@ -22,6 +22,7 @@ namespace TestApp.Controllers
 
         public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
+            Console.WriteLine("test");
             UserManager = userManager;
             SignInManager = signInManager;
         }
